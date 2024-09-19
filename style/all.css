@@ -1,9 +1,9 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-/* reset---------------------- */
+/* reset ----------------- */
 
 body {
-    font-family: Arial, Helvetica, "儷黑 Pro" , "微軟正黑體" ,sans-serif;
+    font-family: Arial, Helvetica, "儷黑 Pro", "微軟正黑體", sans-serif;
 }
 
 img {
@@ -11,6 +11,8 @@ img {
 }
 
 a {
-    outline: none;
     text-decoration: none;
+    outline: none;
 }
+
+/* module ------------------ */
