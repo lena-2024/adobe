@@ -41,6 +41,7 @@
   right: 1rem;
   top: 50%;
   margin-top: -116px;
+  transition-duration: .5s;
 }
 
 .nav-btn {
@@ -63,6 +64,9 @@
   background-color: #000;
 }
 
+.nav-active {
+  background-color: rgba(0, 0, 0, .6);
+}
 /* article ------------------------------ */
 
 .article {
@@ -148,3 +152,32 @@
     grid-template-columns: repeat(2, 1fr);
   }
 } */
+
+@media screen and (max-width: 1024px) {
+  .article{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .article{
+    width: auto;
+    padding: 4rem 2rem 2rem;
+  }
+
+  .article-head {
+    text-align: center;
+  }
+
+  .nav{
+    /* background-color: yellowgreen; */
+    top: 0;
+    right: auto;
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+}
+
